@@ -1,0 +1,52 @@
+
+                body{
+                  background-color: #a5e0dd;
+                }
+                div.sticky {
+                  position: -webkit-sticky;
+                  position: sticky;
+                  top: 0;
+                  background-color:lightseagreen;
+                  padding: 20px;
+                  font-size: 50px;
+                  color: ivory;
+                }
+                div.follow {
+                  position: fixed;
+                  width: 200px;
+                  height: 20px;
+                  bottom: 100px;
+                  top: 48px;
+                  left: 1450px;
+                  right: 100px;
+                  font-size: 20px;
+                }
+                div.about {
+                  position: fixed;
+                  width: 200px;
+                  height: 20px;
+                  bottom: 100px;
+                  top: 48px;
+                  left: 350px;
+                  right: 100px;
+                  font-size: 20px;
+                }
+                div.back {
+                    position: fixed;
+                    width: 80;
+                    height: 20px;
+                    bottom: 100px;
+                    top: 48px;
+                    left: 350px;
+                    right: 100px;
+                    font-size: 20px;
+                  }
+                a:link, a:visited, a:hover, a:active {
+                    background-color: lightcoral;
+                    padding: 15px 25px;
+                    display: incline-block;
+                    text-decoration: none;
+                }
+                body center a {
+                  background-color: transparent !important
+                }
