@@ -2,23 +2,35 @@
     <html>
         <title>Origami- Panda</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="mainstyle.css">
             <style>
                 .mySlides {display:none;}
             </style>
+            <link rel="stylesheet" href="slideshow.css">   
         <body>
-            <center>
-                <div class="sticky">Panda</div>   
-                <a href = "main.html"><img src= "homeicon.png" width = 60 height = 60 style="position: fixed; top: 30px; right: 50px"></a>
-                <img class="mySlides" src="panda/panda1.png" style="position: fixed; top: 250px;left: 360px">
-                <img class="mySlides" src="panda/panda2.png" style="position: fixed; top: 250px;left: 360px">
-                <img class="mySlides" src="panda/panda3.png" style="position: fixed; top: 250px;left: 360px">
-                <img src="rightarrow.png" width = 50 height = 50 style="position: fixed; right: 300px; top: 434.5px">
-                <img src="leftarrow.png" width = 50 height = 50 style="position: fixed; left: 300px; top: 434.5px">
-            </center>
-                <div class="back"><a href="javascript:javascript:history.go(-1)">Back</a></div>
-                <div style="width:50px;height:50px;border:5px solid #000;position:fixed; right: 300px; top: 430px" onClick="slideRight(1)"></div>   
-                <div style="width:50px;height:50px;border:5px solid #000;position:fixed; left: 300px; top: 430px" onClick="slideRight(-1)"></div>   
+            <div class="container">
+                <div class="backContainer">
+                    <div class="back"><a href="javascript:javascript:history.go(-1)">Back</a></div>
+                </div>
+                <div class="title">Panda</div>  
+                <div class="icon"><a href = "main.html"><img src= "homeicon.png" width = 60 height = 60 ></a></div>
+            </div>
+            <div class="bodyContainer">
+                <div class="leftArrow">
+                    <img src="rightarrow.png" width = 50 height = 50 onClick="slideRight(1)">
+                </div>
+                <div class="slidesContainer">
+                    <img class="mySlides" src="panda/panda1.png">
+                    <img class="mySlides" src="panda/panda2.png">
+                    <img class="mySlides" src="panda/panda3.png">
+                    <img class="mySlides" src="panda/panda4.png">
+                    <img class="mySlides" src="panda/panda5.png">
+                    <img class="mySlides" src="panda/panda6.png">
+                </div>
+                <div class="rightArrow">
+                    <img src="leftarrow.png" width = 50 height = 50 onClick="slideRight(-1)">
+                </div>
+            </div>
+            
             <script>
                 var slideNumber = 1;
                 displaySlides(slideNumber);
