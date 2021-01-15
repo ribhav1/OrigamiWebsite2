@@ -4,7 +4,7 @@ div.backContainer{
   border-width: 2px;
   justify-content: center;
   align-items: center;
-  background-color:lightseagreen;
+  background-color:#00BFFF;
 } 
 div.back {
   padding: 15px 25px;
@@ -21,19 +21,19 @@ div.icon {
   align-items: center;
   display: flex;
   flex: 1;
-  background-color:lightseagreen;
+  background-color:#00BFFF;
 }
 div.title {
   justify-content: center;
   display: flex;
   flex: 4;
-  background-color:lightseagreen;
+  background-color:#00BFFF;
   padding: 20px;
   font-size: 50px;
   color: ivory;
 }
 body{
-  background-color: #a5e0dd;
+  background-color: #7B68EE;
 }
 a:link, a:visited, a:hover, a:active {
   text-decoration: none;
